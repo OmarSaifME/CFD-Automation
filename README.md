@@ -3,7 +3,7 @@ A Journal Script for Automated Simulation and Post-Processing for 2D Airfoil Stu
 
 **Overview**
 
-This repository hosts automated scripts for simulation and post-processing of a single run (specific AoA) CFD study for a 2D airfoil (or any other 2D object). The script carefully excludes the step to select the governing equation, but future updates might add these steps if necessary. Additionally, you can find technical documentation and supplementary Python scripts (more about it on the pdf file) for your own study. Additional files will be added in the future (with validated datasets), as the entire workflow is going through multiple testing and iteration at the time of this commit. 
+This repository hosts automated scripts for simulation and post-processing of a single run (specific AoA) CFD study for a 2D airfoil (or any other 2D object). The script is designed for the Spalart Allmaras governing equation, but future updates will add other governing equations and associated settings for turbulence modeling and flow seperation. Additionally, you can find technical documentation and supplementary Python scripts (more about it on the pdf file) for your own study. Additional files will be added in the future (with validated datasets), as the entire workflow is going through multiple testing and iteration at the time of this commit. 
 
 **Features**
 - **Multiple Journal Files**: There are a couple of .jou file. One for first run, the other for subsequent runs for a single project. More about it can be found on the pdf file.
